@@ -304,6 +304,10 @@ a:hover { color: var(--coral); }
 .btn-outline:hover { border-color: var(--coral); color: var(--coral); transform: translateY(-2px); }
 .btn-coral { background: var(--coral); color: #fff; }
 .btn-coral:hover { background: #ff8264; transform: translateY(-2px); box-shadow: var(--shadow-sm); }
+.btn-disabled { opacity: 0.45; cursor: not-allowed; pointer-events: none; padding: 9px 18px; font-size: 0.82rem; margin-top: 4px; }
+.btn-row { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 4px; }
+.btn-row .btn { padding: 9px 18px; font-size: 0.82rem; }
+.btn-sm { padding: 9px 18px; font-size: 0.82rem; margin-top: 4px; }
 
 /* ---------- Cards / Grid ---------- */
 .grid { display: grid; gap: 22px; }
@@ -441,7 +445,7 @@ a:hover { color: var(--coral); }
 .skill-chip-label {
   font-family: var(--font-body); font-weight: 700; font-size: 0.78rem;
   letter-spacing: 0.04em; text-transform: uppercase; color: var(--ink-faint);
-  width: 100%; margin: 4px 0 -2px;
+  width: 100%; margin: 4px 0 6px;
 }
 
 /* ---------- Blog ---------- */
