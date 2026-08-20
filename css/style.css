@@ -6,8 +6,6 @@
    inner pages, cross-page photo view-transitions).
    ========================================================= */
 
-@view-transition { navigation: auto; }
-
 :root {
   --paper: #FAF9F5;
   --surface: #FFFFFF;
@@ -53,7 +51,6 @@ a { color: var(--ink); text-decoration: none; }
   height: 42vh;
   min-height: 260px;
   background: center/cover no-repeat;
-  view-transition-name: rail-photo;
   position: relative;
   display: flex;
   flex-direction: column;
