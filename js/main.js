@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', function () {
   // Mark current page as active in nav
   var current = window.location.pathname.split('/').pop() || 'index.html';
-  document.querySelectorAll('.nav-links a').forEach(function (link) {
+  document.querySelectorAll('.topnav a').forEach(function (link) {
     var href = link.getAttribute('href');
     if (href === current || (current === '' && href === 'index.html')) {
       link.classList.add('active');
