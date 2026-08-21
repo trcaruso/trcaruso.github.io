@@ -1,3 +1,4 @@
 .DS_Store
 photos/
 build_resume.py
+assets/*.mov
