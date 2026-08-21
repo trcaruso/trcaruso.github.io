@@ -35,10 +35,10 @@ a:hover{color:#14577A}
 .nav-links a{color:#BFBFBB;font-weight:400;padding-bottom:4px;border-bottom:2px solid transparent}
 .nav-links a:hover{color:#FFF}
 .nav-links a.is-active{color:#FFF;font-weight:600;border-bottom-color:#1D6F99}
-.social{display:flex;align-items:center;gap:15px;color:#BFBFBB}
+.social{display:flex;align-items:center;gap:20px;color:#BFBFBB}
 .social a{display:flex;color:inherit}
 .social a:hover{color:#FFF}
-.social--foot{gap:22px;padding-bottom:4px;display:none}
+.social--foot{gap:28px;padding-bottom:4px;display:none}
 @media (max-width:767px){.social--nav{display:none}.social--foot{display:flex}}
 
 .hero{position:relative;width:100%;height:var(--heroh);overflow:hidden;background:#1C1B18}
