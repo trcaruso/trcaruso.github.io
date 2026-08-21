@@ -18,100 +18,132 @@
 <meta name="twitter:description" content="Environmental science, GIS, and Python projects by Trevor Caruso.">
 <meta name="twitter:image" content="https://trcaruso.github.io/assets/og-headshot.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,800;1,800&family=Instrument+Sans:ital,wght@0,400;0,500;0,600;0,700;1,700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css">
 </head>
-<body id="top" class="inner">
-
-<div class="hero-band hero-band-mountain">
-  <nav class="topnav topnav-overlay">
-    <div class="nav-primary-links">
+<body>
+  <nav class="nav">
+    <div class="nav-links">
       <a href="index.html">About</a>
-      <a href="projects.html">Projects</a>
+      <a href="projects.html" class="is-active">Projects</a>
       <a href="cv.html">CV</a>
       <a href="blog.html">Blog</a>
     </div>
-    <div class="nav-social-links">
-      <a href="mailto:trcaruso@umich.edu" aria-label="Email"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg></a>
-      <a href="https://github.com/trcaruso" target="_blank" rel="noopener" aria-label="GitHub"><svg class="ico" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.73.5.5 5.73.5 12c0 5.08 3.29 9.39 7.86 10.91.57.1.78-.25.78-.55 0-.27-.01-1.16-.02-2.11-3.2.7-3.88-1.36-3.88-1.36-.52-1.33-1.28-1.68-1.28-1.68-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.18 1.76 1.18 1.03 1.76 2.7 1.25 3.36.96.1-.75.4-1.25.73-1.54-2.55-.29-5.24-1.28-5.24-5.68 0-1.26.45-2.29 1.18-3.09-.12-.29-.51-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11.02 11.02 0 0 1 5.79 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.24 2.76.12 3.05.74.8 1.18 1.83 1.18 3.09 0 4.41-2.7 5.39-5.26 5.67.41.36.78 1.06.78 2.14 0 1.55-.01 2.79-.01 3.17 0 .3.2.66.79.55A10.51 10.51 0 0 0 23.5 12C23.5 5.73 18.27.5 12 .5z"/></svg></a>
-      <a href="https://www.linkedin.com/in/trcaruso/" target="_blank" rel="noopener" aria-label="LinkedIn"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="2" y="2" width="20" height="20" rx="4"/><text x="12" y="16.5" text-anchor="middle" font-size="10" font-weight="700" fill="currentColor" stroke="none" font-family="Arial, Helvetica, sans-serif">in</text></svg></a>
-      <a href="https://substack.com/@trevorthecanuck" target="_blank" rel="noopener" aria-label="Substack"><svg class="ico" viewBox="0 0 24 24" fill="currentColor"><rect x="3" y="3" width="18" height="3.4"/><rect x="3" y="8.3" width="18" height="3.4"/><path d="M3 13.6h18v7l-9 3.4-9-3.4v-7z"/></svg></a>
-      <a href="https://www.threads.com/@trevorthecanuck" target="_blank" rel="noopener" aria-label="Threads"><svg class="ico" viewBox="0 0 24 24" fill="currentColor"><path d="M12.186 24h-.007c-3.581-.024-6.334-1.205-8.184-3.509C2.35 18.44 1.5 15.586 1.472 12.01v-.017c.03-3.579.879-6.43 2.525-8.482C5.845 1.205 8.6.024 12.18 0h.014c2.746.02 5.043.725 6.826 2.098 1.677 1.29 2.858 3.13 3.509 5.467l-2.04.569c-1.104-3.96-3.898-5.984-8.304-6.015-2.91.022-5.11.936-6.54 2.717C4.307 6.504 3.616 8.914 3.589 12c.027 3.086.718 5.496 2.057 7.164 1.43 1.783 3.631 2.698 6.54 2.717 2.623-.02 4.358-.631 5.8-2.045 1.647-1.613 1.618-3.593 1.09-4.798-.31-.71-.873-1.3-1.634-1.75-.192 1.352-.622 2.446-1.284 3.272-.886 1.102-2.14 1.704-3.73 1.79-1.202.065-2.361-.218-3.259-.801-1.063-.689-1.685-1.74-1.752-2.964-.065-1.19.408-2.285 1.33-3.082.88-.76 2.119-1.207 3.583-1.291a13.853 13.853 0 0 1 3.02.142c-.126-.742-.375-1.332-.75-1.757-.513-.586-1.308-.883-2.359-.89h-.029c-.844 0-1.992.232-2.721 1.32L7.734 7.847c.98-1.454 2.568-2.256 4.478-2.256h.044c3.194.02 5.097 1.975 5.287 5.388.108.046.216.094.321.142 1.49.7 2.58 1.761 3.154 3.07.797 1.82.871 4.79-1.548 7.158-1.85 1.81-4.094 2.628-7.277 2.65Zm1.003-11.69c-.242 0-.487.007-.739.021-1.836.103-2.98.946-2.916 2.143.067 1.256 1.452 1.839 2.784 1.767 1.224-.065 2.818-.543 3.086-3.71a10.5 10.5 0 0 0-2.215-.221z"/></svg></a>
-      <a href="https://www.instagram.com/trevorthecanuck/" target="_blank" rel="noopener" aria-label="Instagram"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4.7"/><circle cx="18" cy="6" r="1.2" fill="currentColor" stroke="none"/></svg></a>
+    <div class="social social--nav">
+      <a href="mailto:trcaruso@umich.edu" aria-label="Email"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg></a>
+      <a href="https://github.com/trcaruso" target="_blank" rel="noopener" aria-label="GitHub"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.73.5.5 5.73.5 12c0 5.08 3.29 9.39 7.86 10.91.57.1.78-.25.78-.55 0-.27-.01-1.16-.02-2.11-3.2.7-3.88-1.36-3.88-1.36-.52-1.33-1.28-1.68-1.28-1.68-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.18 1.76 1.18 1.03 1.76 2.7 1.25 3.36.96.1-.75.4-1.25.73-1.54-2.55-.29-5.24-1.28-5.24-5.68 0-1.26.45-2.29 1.18-3.09-.12-.29-.51-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11.02 11.02 0 0 1 5.79 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.24 2.76.12 3.05.74.8 1.18 1.83 1.18 3.09 0 4.41-2.7 5.39-5.26 5.67.41.36.78 1.06.78 2.14 0 1.55-.01 2.79-.01 3.17 0 .3.2.66.79.55A10.51 10.51 0 0 0 23.5 12C23.5 5.73 18.27.5 12 .5z"/></svg></a>
+      <a href="https://www.linkedin.com/in/trcaruso/" target="_blank" rel="noopener" aria-label="LinkedIn"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="2" y="2" width="20" height="20" rx="4"/><text x="12" y="16.5" text-anchor="middle" font-size="10" font-weight="700" fill="currentColor" stroke="none" font-family="Arial, Helvetica, sans-serif">in</text></svg></a>
+      <a href="https://substack.com/@trevorthecanuck" target="_blank" rel="noopener" aria-label="Substack"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><rect x="3" y="3" width="18" height="3.4"/><rect x="3" y="8.3" width="18" height="3.4"/><path d="M3 13.6h18v7l-9 3.4-9-3.4v-7z"/></svg></a>
+      <a href="https://www.threads.com/@trevorthecanuck" target="_blank" rel="noopener" aria-label="Threads"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12.186 24h-.007c-3.581-.024-6.334-1.205-8.184-3.509C2.35 18.44 1.5 15.586 1.472 12.01v-.017c.03-3.579.879-6.43 2.525-8.482C5.845 1.205 8.6.024 12.18 0h.014c2.746.02 5.043.725 6.826 2.098 1.677 1.29 2.858 3.13 3.509 5.467l-2.04.569c-1.104-3.96-3.898-5.984-8.304-6.015-2.91.022-5.11.936-6.54 2.717C4.307 6.504 3.616 8.914 3.589 12c.027 3.086.718 5.496 2.057 7.164 1.43 1.783 3.631 2.698 6.54 2.717 2.623-.02 4.358-.631 5.8-2.045 1.647-1.613 1.618-3.593 1.09-4.798-.31-.71-.873-1.3-1.634-1.75-.192 1.352-.622 2.446-1.284 3.272-.886 1.102-2.14 1.704-3.73 1.79-1.202.065-2.361-.218-3.259-.801-1.063-.689-1.685-1.74-1.752-2.964-.065-1.19.408-2.285 1.33-3.082.88-.76 2.119-1.207 3.583-1.291a13.853 13.853 0 0 1 3.02.142c-.126-.742-.375-1.332-.75-1.757-.513-.586-1.308-.883-2.359-.89h-.029c-.844 0-1.992.232-2.721 1.32L7.734 7.847c.98-1.454 2.568-2.256 4.478-2.256h.044c3.194.02 5.097 1.975 5.287 5.388.108.046.216.094.321.142 1.49.7 2.58 1.761 3.154 3.07.797 1.82.871 4.79-1.548 7.158-1.85 1.81-4.094 2.628-7.277 2.65Zm1.003-11.69c-.242 0-.487.007-.739.021-1.836.103-2.98.946-2.916 2.143.067 1.256 1.452 1.839 2.784 1.767 1.224-.065 2.818-.543 3.086-3.71a10.5 10.5 0 0 0-2.215-.221z"/></svg></a>
+      <a href="https://www.instagram.com/trevorthecanuck/" target="_blank" rel="noopener" aria-label="Instagram"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4.7"/><circle cx="18" cy="6" r="1.2" fill="currentColor" stroke="none"/></svg></a>
     </div>
   </nav>
-</div>
-<div class="main">
-  <h1 class="page-title">Projects</h1>
-  <p class="lede">Reports, code, maps, and presentations from coursework and research projects, spanning climate science, environmental management, water systems, GIS, and more.</p>
-
-  <div class="block">
-    <h2 class="section-label">Field Studies</h2>
-    <p class="intro">Reports and presentations examining watershed hydrology, river systems under climate stress, and nature-based restoration strategies.</p>
-    <div class="grid grid-3">
-      <div class="card">
-        <div class="photo zoom-crop"><img src="assets/camp-davis-fieldwork.jpg" alt="Field team collecting data at Camp Davis, Wyoming"></div>
-        <h3>Aquifer Characterization</h3>
-        <p>Turns out the reason our Wyoming field station's well pumps 150 gallons a minute isn't luck. Running seismic and resistivity surveys, we traced it to a gravel layer feeding fractured bedrock below, recharged by a nearby mountain stream.</p>
-        <a href="#" class="btn btn-outline btn-sm btn-disabled">View Report (coming soon)</a>
-      </div>
-      <div class="card">
-        <div class="photo"><img src="assets/big-hole-fieldwork.jpg" alt="Field team at the Big Hole River, Montana"></div>
-        <h3>The Big Hole River &amp; Climate Change</h3>
-        <p>Digging into twenty years of Big Hole Watershed data, I found water temperatures climbing while flow stays flat, squeezing the exact August window Arctic Grayling, ranchers, and irrigators all depend on.</p>
-        <div class="btn-row">
-          <a href="assets/big-hole-presentation.pptx" class="btn btn-outline btn-sm" target="_blank" rel="noopener">View Deck</a>
-          <a href="assets/big-hole-data.xlsx" class="btn btn-outline btn-sm" target="_blank" rel="noopener">View Spreadsheet</a>
-        </div>
-      </div>
-      <div class="card">
-        <div class="photo"><img src="assets/birch-creek-bda.jpg" alt="A beaver on a dam along a wetland stream"></div>
-        <h3>Beaver Dam Analogues (BDAs)</h3>
-        <p>Birch Creek turned out to be the warmest, most drought-stressed stream we sampled, which is what led our team to pitch four beaver dam analogues there, bringing back the cooling effect real beavers provided before the fur trade wiped them out.</p>
-        <a href="assets/birch-creek-bda-presentation.pptx" class="btn btn-outline btn-sm" target="_blank" rel="noopener">View Proposal</a>
-      </div>
-    </div>
+  <div class="bandimg">
+    <img src="assets/backdrop-mountain.jpg" alt="">
+    <div class="bandimg-scrim"></div>
   </div>
 
-  <div class="block">
-    <div class="project-pair">
-      <div>
-        <h2 class="section-label">GIS</h2>
-        <p class="intro">Mapping and geospatial analysis of environmental risk.</p>
-        <div class="card">
-          <div class="photo"><img src="assets/yellowknife-postfire.jpg" alt="Landsat false color imagery of burn scars from the 2023 Northwest Territories wildfires near Yellowknife"></div>
-          <h3>Forest Fires in Yellowknife</h3>
-          <p>Running zonal statistics on before-and-after Landsat imagery, I found reflectance variability jumped nearly ninefold after the 2023 Yellowknife wildfires, a number that finally put real scale behind how dramatically the landscape changed.</p>
-          <div class="btn-row">
-            <a href="assets/yellowknife-presentation.pptx" class="btn btn-outline btn-sm" target="_blank" rel="noopener">View Presentation</a>
-            <a href="https://umich.maps.arcgis.com/home/item.html?id=6292493c21714dcdb59907ac5d0463cb#overview" class="btn btn-outline btn-sm" target="_blank" rel="noopener">View Interactive Map</a>
-          </div>
+  <main class="main">
+    <div class="pagehead">
+      <h1>Projects</h1>
+      <p>Reports, code, maps, and presentations from coursework and research projects, spanning climate science, environmental management, water systems, GIS, and more.</p>
+    </div>
+
+    <div class="stack">
+      <section class="section">
+        <div>
+          <h2>Field Studies</h2>
+          <p class="section-sub">Reports and presentations examining watershed hydrology, river systems under climate stress, and nature-based restoration strategies.</p>
         </div>
-      </div>
-      <div>
-        <h2 class="section-label">Python</h2>
-        <p class="intro">Analyzing weather and climate risk with Python, Pandas, and Matplotlib.</p>
-        <div class="card">
-          <div class="photo"><img src="assets/weather-warming-trends.jpg" alt="Chart of annual average max daily temperature by city, showing warming trends"></div>
-          <h3>Weather &amp; Meteorological Analysis</h3>
-          <p>A single day of data (my birthday, of all days) showed no trend at all, but once I averaged temperatures across the whole year, a clear warming signal emerged in all four cities, with Houston climbing fastest.</p>
-          <div class="btn-row">
-            <a href="assets/weather-analysis-report.pdf" class="btn btn-outline btn-sm" target="_blank" rel="noopener">View Analysis</a>
-            <a href="assets/weather-analysis-code.zip" class="btn btn-outline btn-sm" target="_blank" rel="noopener">View Code</a>
-          </div>
+        <div class="cards">
+          <article class="card">
+            <div class="imgbox" style="background:#1C1B18"><img src="assets/big-hole-fieldwork.jpg" alt="Fieldwork along the Big Hole River, Montana" style="object-fit:cover;object-position:center 40%"></div>
+            <h3>Aquifer Characterization</h3>
+            <p>Seismic refraction and resistivity surveys at Michigan&rsquo;s Wyoming field station traced its unusually productive well, up to 150 gallons a minute, to a gravel layer feeding fractured bedrock below, recharged by a nearby mountain stream.</p>
+            <p class="full">Working on a small field team at the University of Michigan&rsquo;s research station in Wyoming, we used seismic refraction and electrical resistivity tomography to investigate why the camp&rsquo;s well produces up to 150 gallons per minute, far more than neighboring wells. Our data, as well as geomorphic surveying in the area, pointed to a two-layer system with a permeable gravel layer feeding water down into fractured bedrock below, recharged by a nearby mountain stream. Our findings supported the case for the camp&rsquo;s ongoing expansion project.</p>
+            <button class="readmore" type="button" aria-expanded="false">Read more</button>
+            <span class="btn btn--disabled">View Report (coming soon)</span>
+          </article>
+          <article class="card">
+            <img src="assets/big-hole-river.jpg" alt="The Big Hole River running past conifer forest and mountains">
+            <h3>The Big Hole River &amp; Climate Change</h3>
+            <p>Twenty years of Big Hole Watershed data show water temperatures climbing sharply while overall flow stays flat, squeezing the exact August window Arctic Grayling, ranchers, and irrigators all depend on.</p>
+            <p class="full">Climate data from the Big Hole Watershed over the last twenty years has revealed that water temperatures are rising sharply while overall water quantity has stayed relatively flat. Working with seasonal data plots, a 2013 water temperature study, and local rancher Erik Kalsta, I examined how earlier snowmelt and hotter summers are adding stress to the exact August window Arctic Grayling depend on most. My findings support how that kind of stress puts ranchers, irrigators, and fish habitat in direct competition for the same water.</p>
+            <button class="readmore" type="button" aria-expanded="false">Read more</button>
+            <div class="btnrow">
+              <a class="btn btn--outline" href="assets/big-hole-presentation.pptx" target="_blank" rel="noopener">View Deck</a>
+              <a class="btn btn--outline" href="assets/big-hole-data.xlsx" target="_blank" rel="noopener">View Spreadsheet</a>
+            </div>
+          </article>
+          <article class="card">
+            <img src="assets/birch-creek-bda.jpg" alt="A beaver on a dam along a wetland stream">
+            <h3>Beaver Dam Analogues (BDAs)</h3>
+            <p>Birch Creek was the warmest stream we sampled, so our team proposed four beaver dam analogues there to help slow the water down and send it back into the river colder later in the summer.</p>
+            <p class="full">For this project, our team pitched a plan to build four beaver dam analogs on Birch Creek, a Big Hole River tributary that turned out to be the warmest stream we sampled and feeds into the river&rsquo;s most drought-stressed sections. Beavers used to keep this kind of wetland habitat healthy before the fur trade and mining wiped most of them out, so the BDAs are meant to do the same job: slow the water down, let it soak into the ground, and send it back into the river colder later in the summer. We pitched it as a funding proposal from a conservation angle, showing how a low-cost pilot on Birch Creek could help ranchers, anglers, and Arctic Grayling downstream.</p>
+            <button class="readmore" type="button" aria-expanded="false">Read more</button>
+            <a class="btn btn--outline" href="assets/birch-creek-bda-presentation.pptx" target="_blank" rel="noopener">View Proposal</a>
+          </article>
         </div>
+      </section>
+
+      <div class="pair">
+        <section class="section">
+          <div>
+            <h2>GIS</h2>
+            <p class="section-sub">Geospatial analysis of environmental risk.</p>
+          </div>
+          <div class="pair-card">
+          <article class="card">
+            <img src="assets/burn-area-falsecolor.png" alt="False-colour satellite imagery showing a burn area beside vegetated hills">
+            <h3>Forest Fires in Yellowknife</h3>
+            <p>Comparing Landsat 9 imagery from before and after the 2023 Yellowknife wildfires in ArcGIS Pro, zonal statistics showed reflectance variability jump from about 500 to over 4,500.</p>
+            <p class="full">For this project, I used ArcGIS Pro to analyze the 2023 Northwest Territories wildfires near Yellowknife, comparing Landsat 9 imagery from before and after the fires alongside a 30-meter DEM hillshade of the area. I ran zonal statistics on both scenes to put real numbers behind what the imagery was already showing, and the standard deviation in reflectance jumped from around 500 pre-fire to over 4,500 post-fire. Seeing that kind of shift confirmed just how dramatically these fires reshaped the landscape.</p>
+            <button class="readmore" type="button" aria-expanded="false">Read more</button>
+            <div class="btnrow">
+              <a class="btn btn--outline" href="assets/yellowknife-presentation.pptx" target="_blank" rel="noopener">View Presentation</a>
+              <a class="btn btn--outline" href="https://umich.maps.arcgis.com/home/item.html?id=6292493c21714dcdb59907ac5d0463cb#overview" target="_blank" rel="noopener">View Interactive Map</a>
+            </div>
+          </article>
+          </div>
+        </section>
+        <section class="section">
+          <div>
+            <h2>Python</h2>
+            <p class="section-sub">Weather and climate risk in Python.</p>
+          </div>
+          <div class="pair-card">
+          <article class="card">
+            <div class="imgbox"><img src="assets/weather-warming-trends.jpg" alt="Chart of annual average max daily temperature by city" style="transform:scale(1.3)"></div>
+            <h3>Weather &amp; Meteorological Analysis</h3>
+            <p>A century of NOAA data for four U.S. cities, processed with Pandas and Matplotlib: a single day showed nothing, but annual averages revealed a clear warming signal, fastest in Houston.</p>
+            <p class="full">For this project, I pulled over a century of NOAA weather data for four U.S. cities (Ann Arbor, MI, Blue Hill, MA, Houston, TX, and Los Angeles, CA) and wrote a set of Python functions using Pandas and Matplotlib to load, process, and plot it. Looking at a single day (my birthday, December 13th) showed basically no trend, too much year-to-year noise. But once I averaged temperatures across the whole year, the warming signal became obvious and statistically significant everywhere I looked. Houston came out warming the fastest of the four cities, and each one had a completely different seasonal profile depending on its climate.</p>
+            <button class="readmore" type="button" aria-expanded="false">Read more</button>
+            <div class="btnrow">
+              <a class="btn btn--outline" href="assets/weather-analysis-report.pdf" target="_blank" rel="noopener">View Analysis</a>
+              <a class="btn btn--outline" href="assets/weather-analysis-code.zip" target="_blank" rel="noopener">View Code</a>
+            </div>
+          </article>
+          </div>
+        </section>
       </div>
     </div>
-  </div>
+  </main>
 
-  <a href="#top" class="back-to-top">Back to top ↑</a>
-
-  <footer class="site-footer">
-    <span>© 2026 Trevor Caruso. All Rights Reserved.</span>
-    <span>Last updated: 19 Aug 2026</span>
+  <footer class="foot">
+    <div class="social social--foot">
+      <a href="mailto:trcaruso@umich.edu" aria-label="Email"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg></a>
+      <a href="https://github.com/trcaruso" target="_blank" rel="noopener" aria-label="GitHub"><svg width="19" height="19" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.73.5.5 5.73.5 12c0 5.08 3.29 9.39 7.86 10.91.57.1.78-.25.78-.55 0-.27-.01-1.16-.02-2.11-3.2.7-3.88-1.36-3.88-1.36-.52-1.33-1.28-1.68-1.28-1.68-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.18 1.76 1.18 1.03 1.76 2.7 1.25 3.36.96.1-.75.4-1.25.73-1.54-2.55-.29-5.24-1.28-5.24-5.68 0-1.26.45-2.29 1.18-3.09-.12-.29-.51-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11.02 11.02 0 0 1 5.79 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.24 2.76.12 3.05.74.8 1.18 1.83 1.18 3.09 0 4.41-2.7 5.39-5.26 5.67.41.36.78 1.06.78 2.14 0 1.55-.01 2.79-.01 3.17 0 .3.2.66.79.55A10.51 10.51 0 0 0 23.5 12C23.5 5.73 18.27.5 12 .5z"/></svg></a>
+      <a href="https://www.linkedin.com/in/trcaruso/" target="_blank" rel="noopener" aria-label="LinkedIn"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="2" y="2" width="20" height="20" rx="4"/><text x="12" y="16.5" text-anchor="middle" font-size="10" font-weight="700" fill="currentColor" stroke="none" font-family="Arial, Helvetica, sans-serif">in</text></svg></a>
+      <a href="https://substack.com/@trevorthecanuck" target="_blank" rel="noopener" aria-label="Substack"><svg width="19" height="19" viewBox="0 0 24 24" fill="currentColor"><rect x="3" y="3" width="18" height="3.4"/><rect x="3" y="8.3" width="18" height="3.4"/><path d="M3 13.6h18v7l-9 3.4-9-3.4v-7z"/></svg></a>
+      <a href="https://www.threads.com/@trevorthecanuck" target="_blank" rel="noopener" aria-label="Threads"><svg width="19" height="19" viewBox="0 0 24 24" fill="currentColor"><path d="M12.186 24h-.007c-3.581-.024-6.334-1.205-8.184-3.509C2.35 18.44 1.5 15.586 1.472 12.01v-.017c.03-3.579.879-6.43 2.525-8.482C5.845 1.205 8.6.024 12.18 0h.014c2.746.02 5.043.725 6.826 2.098 1.677 1.29 2.858 3.13 3.509 5.467l-2.04.569c-1.104-3.96-3.898-5.984-8.304-6.015-2.91.022-5.11.936-6.54 2.717C4.307 6.504 3.616 8.914 3.589 12c.027 3.086.718 5.496 2.057 7.164 1.43 1.783 3.631 2.698 6.54 2.717 2.623-.02 4.358-.631 5.8-2.045 1.647-1.613 1.618-3.593 1.09-4.798-.31-.71-.873-1.3-1.634-1.75-.192 1.352-.622 2.446-1.284 3.272-.886 1.102-2.14 1.704-3.73 1.79-1.202.065-2.361-.218-3.259-.801-1.063-.689-1.685-1.74-1.752-2.964-.065-1.19.408-2.285 1.33-3.082.88-.76 2.119-1.207 3.583-1.291a13.853 13.853 0 0 1 3.02.142c-.126-.742-.375-1.332-.75-1.757-.513-.586-1.308-.883-2.359-.89h-.029c-.844 0-1.992.232-2.721 1.32L7.734 7.847c.98-1.454 2.568-2.256 4.478-2.256h.044c3.194.02 5.097 1.975 5.287 5.388.108.046.216.094.321.142 1.49.7 2.58 1.761 3.154 3.07.797 1.82.871 4.79-1.548 7.158-1.85 1.81-4.094 2.628-7.277 2.65Zm1.003-11.69c-.242 0-.487.007-.739.021-1.836.103-2.98.946-2.916 2.143.067 1.256 1.452 1.839 2.784 1.767 1.224-.065 2.818-.543 3.086-3.71a10.5 10.5 0 0 0-2.215-.221z"/></svg></a>
+      <a href="https://www.instagram.com/trevorthecanuck/" target="_blank" rel="noopener" aria-label="Instagram"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4.7"/><circle cx="18" cy="6" r="1.2" fill="currentColor" stroke="none"/></svg></a>
+    </div>
+    <div class="foot-meta">
+      <span>&copy; 2026 Trevor Caruso. All Rights Reserved.</span>
+      <span>Last updated: 20 Aug 2026</span>
+    </div>
   </footer>
-</div>
-
-<script src="js/main.js"></script>
+  <script src="js/main.js"></script>
 </body>
 </html>
