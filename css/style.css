@@ -18,7 +18,7 @@ a:hover{color:#14577A}
 --lede:18px;--btnpad:10px 17px;--fact:18px;--factcols:1fr 1fr;--factgap:30px 34px;
 --aboutsplit:300px 1fr;--whyimgw:300px;--portraith:400px;--bandpad:48px 32px;--h2:42px;--row:21px;--rowpad:17px;
 --bandh:230px;--mainpad:48px 32px 56px;--blockgap:56px;--title:58px;--h3:30px;--card:21px;--body:15.5px;--chip:12px;
---cardcols:repeat(2,1fr);--paircols:1fr;--cardgap:32px;--cardimg:300px;
+--cardcols:repeat(2,1fr);--paircols:repeat(2,1fr);--cardgap:32px;--cardimg:300px;
 --cvcols:150px 1fr;--cvgap:24px;--bannerpad:30px 32px;--footpad:22px 32px;
 }}
 @media (max-width:767px){:root{
