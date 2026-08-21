@@ -118,9 +118,9 @@ a:hover{color:#14577A}
 .cvnote{font-size:var(--body);line-height:1.55;color:#5C594F;margin:4px 0 0;text-wrap:pretty}
 .block{display:flex;flex-direction:column;gap:22px}
 .chips{display:flex;flex-wrap:wrap;gap:7px;margin-top:6px}
-.chip{font-size:var(--chip);font-weight:600;padding:6px 12px;border-radius:20px;background:#E4F1F7;border:.5px solid #A9D2E3;color:#1D6F99}
-.chip--featured{background:#E4F1F7;border-color:#A9D2E3;color:#1D6F99}
-.chip--outline{background:#E4F1F7;border-color:#A9D2E3;color:#1D6F99}
+.chip{font-size:var(--chip);font-weight:600;padding:6px 12px;border-radius:20px;background:#E4F1F7;border:.5px solid #A9D2E3;color:#1C1B18}
+.chip--featured{background:#E4F1F7;border-color:#A9D2E3;color:#1C1B18}
+.chip--outline{background:#E4F1F7;border-color:#A9D2E3;color:#1C1B18}
 .chip-label{flex-basis:100%;font-weight:700;font-size:var(--chip);letter-spacing:.08em;text-transform:uppercase;color:#1D6F99;margin:8px 0 -2px}
 .tools .chip{padding:7px 13px}
 .honors{display:flex;flex-direction:column;gap:4px}
