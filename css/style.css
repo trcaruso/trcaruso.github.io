@@ -50,7 +50,7 @@ a:hover{color:#14577A}
 .hero-row p{font-size:var(--lede);line-height:1.5;color:rgba(255,255,255,.87);margin:0;max-width:46ch;text-wrap:pretty}
 .btnrow{display:flex;gap:9px;flex-wrap:wrap}
 .btn{display:inline-flex;font-weight:600;font-size:var(--btn);padding:var(--btnpad);border-radius:20px}
-.btn--light{background:#FAF9F5;color:#1C1B18}
+.btn--light{background:#FAF9F5;border:1px solid transparent;color:#1C1B18}
 .btn--light:hover{color:#1C1B18}
 .btn--onphoto{border:1px solid rgba(255,255,255,.55);color:#FFF}
 .btn--onphoto:hover{color:#FFF;background:rgba(255,255,255,.12)}
