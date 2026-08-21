@@ -32,9 +32,9 @@ a:hover{color:#14577A}
 
 .nav{display:flex;justify-content:space-between;align-items:center;gap:18px;background:#1C1B18;padding:var(--navpad)}
 .nav-links{display:flex;align-items:center;gap:var(--navgap);font-size:var(--nav);letter-spacing:.02em}
-.nav-links a{color:#BFBFBB;font-weight:400}
+.nav-links a{color:#BFBFBB;font-weight:400;padding-bottom:4px;border-bottom:2px solid transparent}
 .nav-links a:hover{color:#FFF}
-.nav-links a.is-active{color:#FFF;font-weight:600}
+.nav-links a.is-active{color:#FFF;font-weight:600;border-bottom-color:#1D6F99}
 .social{display:flex;align-items:center;gap:15px;color:#BFBFBB}
 .social a{display:flex;color:inherit}
 .social a:hover{color:#FFF}
@@ -49,18 +49,18 @@ a:hover{color:#14577A}
 .hero-row{display:flex;align-items:flex-end;justify-content:space-between;gap:var(--herogap);flex-wrap:wrap}
 .hero-row p{font-size:var(--lede);line-height:1.5;color:rgba(255,255,255,.87);margin:0;max-width:46ch;text-wrap:pretty}
 .btnrow{display:flex;gap:9px;flex-wrap:wrap}
-.btn{display:inline-flex;font-weight:600;font-size:var(--btn);padding:var(--btnpad);border-radius:20px}
+.btn{display:inline-flex;font-weight:600;font-size:var(--btn);padding:var(--btnpad);border-radius:20px;transition:background .15s,border-color .15s,color .15s}
 .btn--light{background:#FAF9F5;border:1px solid transparent;color:#1C1B18}
-.btn--light:hover{color:#1C1B18}
+.btn--light:hover{border-color:#1D6F99;color:#1D6F99}
 .btn--onphoto{border:1px solid rgba(255,255,255,.55);color:#FFF}
-.btn--onphoto:hover{color:#FFF;background:rgba(255,255,255,.12)}
+.btn--onphoto:hover{color:#FFF;border-color:#1D6F99;background:rgba(29,111,153,.35)}
 .btn--dark{background:#1C1B18;color:#FAF9F5}
-.btn--dark:hover{color:#FAF9F5}
+.btn--dark:hover{background:#1D6F99;color:#FAF9F5}
 .btn--outline{border:1px solid #D8D4C8;color:#1C1B18}
-.btn--outline:hover{color:#1C1B18;background:#F1EFE7}
+.btn--outline:hover{border-color:#1D6F99;color:#1D6F99;background:#E4F1F7}
 .btn--disabled{border:1px solid #E7E4DA;color:#A9A69A}
 .btn--blue{background:#1D6F99;color:#FAF9F5}
-.btn--blue:hover{color:#FAF9F5}
+.btn--blue:hover{background:#14577A;color:#FAF9F5}
 
 .aboutgrid{display:grid;grid-template-columns:var(--aboutsplit)}
 .aboutgrid>img{width:100%;height:100%;min-height:var(--portraith);object-fit:cover}
