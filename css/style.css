@@ -39,6 +39,9 @@ a:hover{color:#14577A}
 .social a{display:flex;color:inherit}
 .social a:hover{color:#FFF}
 .follow-label{font-size:var(--nav);font-weight:500;color:#8B887F;letter-spacing:.02em;white-space:nowrap}
+.foot-contact{font-size:var(--nav);color:#8B887F;letter-spacing:.02em}
+.foot-contact a{color:#FFF;text-decoration:underline;text-decoration-color:rgba(255,255,255,.4);text-underline-offset:2px}
+.foot-contact a:hover{color:#FFF;text-decoration-color:#FFF}
 .social--foot{gap:28px;padding-bottom:4px;display:none}
 @media (max-width:767px){.social--nav{display:none}.social--foot{display:flex}}
 
