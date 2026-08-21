@@ -138,7 +138,7 @@ a:hover{color:#14577A}
 .honors h2{margin-bottom:12px}
 .honors>div{border-top:.5px solid #D8D4C8;padding:13px 0;font-size:var(--card);letter-spacing:-.012em}
 
-.videobox{width:100%;aspect-ratio:16/9;background:#1C1B18;display:flex;align-items:center;justify-content:center;color:#8B887F;font-weight:600;font-size:var(--body);letter-spacing:.02em;text-align:center}
+.videobox{width:100%;max-width:820px;margin:0 auto;aspect-ratio:16/9;background:#1C1B18;display:flex;align-items:center;justify-content:center;color:#8B887F;font-weight:600;font-size:var(--body);letter-spacing:.02em;text-align:center}
 
 .banner{background:#E4F1F7;padding:var(--bannerpad);display:flex;align-items:center;justify-content:space-between;gap:24px;flex-wrap:wrap}
 .banner h3{font-size:var(--card);font-weight:700;letter-spacing:-.02em;margin:0 0 4px}
